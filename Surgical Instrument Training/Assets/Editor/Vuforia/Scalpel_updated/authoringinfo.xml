@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.2.2">
+        <ModelTarget name="Scalpel_updated" targetId="152d7670169a4366b5cecff4010ce953" version="14.0" toolVersion="v7.2.2" bbox="0.011902 -0.003663 -0.117930 0.035734 0.000000 0.133077" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Scalpel_updated" assemblyId="b6bdb84f91e5498b9a69ffdb6e8fb632">
+        <Part name="Scalpel_updated" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
