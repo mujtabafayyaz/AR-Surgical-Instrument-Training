@@ -9,6 +9,9 @@ using UnityEngine.UI;
 
 // code based on MediaPipe Unity Plugin tutorial: https://github.com/homuler/MediaPipeUnityPlugin/blob/d816caad57340e687f5b351b917d2b52ba417734/docs/Tutorial-Task-API.md
 // credit: Homuler - https://github.com/homuler
+// The script is responsible for hand tracking using the MediaPipe HandLandmarker API.
+// It uses the CameraImageAccess script to access the 2DTexture of the camera image and processes it using the HandLandmarker model.
+// The script will then output the hand landmark results and make it publicly available for other scripts to use.
 public class VuforiaHandTracking : MonoBehaviour
 {
     public CameraImageAccess cameraImageAccess;
